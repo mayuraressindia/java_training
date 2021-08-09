@@ -16,7 +16,7 @@ class Calculation {
    }
 }
 
-public class myCalculations extends Calculation
+public class myCalculations1 extends Calculation
 {
    public void multiplication(int x, int y)
    {
@@ -27,7 +27,7 @@ public class myCalculations extends Calculation
    public static void main(String args[])
    {
       int a = 30, b = 20;
-      myCalculations demo = new myCalculations();
+      myCalculations1 demo = new myCalculations1();
       demo.addition(a, b);
       demo.Subtraction(a, b);
       demo.multiplication(a, b);
